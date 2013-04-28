@@ -7,15 +7,17 @@
 		<h1><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h1>
 	</div>
 </div>
+{% if category != '0' %}
 <div class="row-fluid">
 	<div class="span1">
 	</div>
 	<div class="span10">
-		{% if category != '0' %}
+		
 
 		<footer class="archive">
 		  <span class="categories">posted in {{ post.categories | category_links }}</span>
 		</footer>
-		{% endif %}
+		
 	</div>
 </div>
+{% endif %}
