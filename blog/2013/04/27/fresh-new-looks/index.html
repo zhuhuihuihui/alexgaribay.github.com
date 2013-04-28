@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Test post with Octopress - Alex Garibay</title>
+  <title>Fresh New Looks - Alex Garibay</title>
   <meta name="author" content="Alex Garibay">
 
   
-  <meta name="description" content="Test Post With Octopress Jan 16th, 2013 Testing out my new blog/website Tweet &laquo; Another test post 2 Another test post &raquo; Comments Please &hellip;">
+  <meta name="description" content="Fresh New Looks Apr 27th, 2013 A New Coat of Paint Over the past two days, I&#8217;ve been reworking my website along with the design. I&#8217;ve &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://alexgaribay.github.io/blog/2013/01/16/test-post-with-octopress">
+  <link rel="canonical" href="http://alexgaribay.github.io/blog/2013/04/27/fresh-new-looks">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/bootstrap.css" rel="stylesheet">
@@ -64,9 +64,9 @@
   	      <ul class="nav">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/about-me.html">About Me</a></li>
   <li><a href="/music.html">My Music</a></li>
   <li><a href="http://github.com/alexgaribay">Github</a><li>
+  <li><a href="/about-me.html">About Me</a></li>
 </ul>
 
 
@@ -84,7 +84,7 @@
 
   <header>
   <div class="jumbotron">
-    Test Post With Octopress
+    Fresh New Looks
     <h5>
 
 
@@ -97,12 +97,16 @@
   
 
 
-<time datetime="2013-01-16T22:25:00-06:00" pubdate data-updated="true">Jan 16<span>th</span>, 2013</time></h5>
+<time datetime="2013-04-27T16:00:00-05:00" pubdate data-updated="true">Apr 27<span>th</span>, 2013</time></h5>
   </div>
 </header>
   <div class="row">
     <div class="span12">
-      <p>Testing out my new blog/website</p>
+      <h2>A New Coat of Paint</h2>
+
+<p>Over the past two days, I&#8217;ve been reworking my website along with the design. I&#8217;ve been inspired a lot lately by flat design and how it looks. A lto of my inspiration came from Windows 8 and Windows Phone 8 because I feel that the look is so elegant in design and I wanted to have a stab at it.</p>
+
+<p>Since there aren&#8217;t many flat Octopress themes I decided to make my own after all of this work.</p>
 
       
     </div>
@@ -115,12 +119,18 @@
 
       
 
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/flat-design/'>flat-design</a>
+  
+</span>
+
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://alexgaribay.github.io/blog/2013/01/16/test-post-with-octopress/" data-via="" data-counturl="http://alexgaribay.github.io/blog/2013/01/16/test-post-with-octopress/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://alexgaribay.github.io/blog/2013/04/27/fresh-new-looks/" data-via="" data-counturl="http://alexgaribay.github.io/blog/2013/04/27/fresh-new-looks/" >Tweet</a>
   
   
   
@@ -129,10 +139,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/01/23/another-test-post-2/" title="Previous Post: Another test post 2">&laquo; Another test post 2</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2013/01/23/another-test-post/" title="Next Post: Another test post">Another test post &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2013/04/28/octoflat-theme/" title="Next Post: Octoflat Theme">Octoflat Theme &raquo;</a>
       
     </p>
   </footer>
@@ -153,23 +161,44 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/01/23/another-test-post/">Another test post</a>
+        <a href="/blog/2013/04/28/octoflat-theme/">Octoflat Theme</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/01/16/test-post-with-octopress/">Test post with Octopress</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/01/23/another-test-post-2/">Another test post 2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/01/23/another-test-post-3/">Another test post 3</a>
+        <a href="/blog/2013/04/27/fresh-new-looks/">Fresh New Looks</a>
       </li>
     
   </ul>
 </section>-->
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/alexgaribay">@alexgaribay</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'alexgaribay',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
 
@@ -200,8 +229,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://alexgaribay.github.io/blog/2013/01/16/test-post-with-octopress/';
-        var disqus_url = 'http://alexgaribay.github.io/blog/2013/01/16/test-post-with-octopress/';
+        var disqus_identifier = 'http://alexgaribay.github.io/blog/2013/04/27/fresh-new-looks/';
+        var disqus_url = 'http://alexgaribay.github.io/blog/2013/04/27/fresh-new-looks/';
         var disqus_script = 'embed.js';
       
     (function () {

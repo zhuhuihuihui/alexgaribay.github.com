@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Alex Garibay]]></title>
-  <link href="http://alexgaribay.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: flat-design | Alex Garibay]]></title>
+  <link href="http://alexgaribay.github.io/blog/categories/flat-design/atom.xml" rel="self"/>
   <link href="http://alexgaribay.github.io/"/>
   <updated>2013-04-28T12:29:32-05:00</updated>
   <id>http://alexgaribay.github.io/</id>
@@ -20,7 +20,7 @@
     <id>http://alexgaribay.github.io/blog/2013/04/28/octoflat-theme</id>
     <content type="html"><![CDATA[<h2>Beginnings</h2>
 
-<p>I have created my first Octopress theme today called Octoflat. The theme is inspired by flat design. It uses <a href="" title="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a> and Designmodo&#8217;s <a href="" title="https://github.com/designmodo/Flat-UI">Flat UI</a>. All the colors chosen are the colors listed on Flat-UI&#8217;s demo page.</p>
+<p>I have created my first Octopress theme today called Octoflat. The theme is inspired by flat design. It uses <a href="" title="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a> and Designmodo's <a href="" title="https://github.com/designmodo/Flat-UI">Flat UI</a>. All the colors chosen are the colors listed on Flat-UI's demo page.</p>
 
 <p></br></p>
 
@@ -37,9 +37,9 @@
     <id>http://alexgaribay.github.io/blog/2013/04/27/fresh-new-looks</id>
     <content type="html"><![CDATA[<h2>A New Coat of Paint</h2>
 
-<p>Over the past two days, I&#8217;ve been reworking my website along with the design. I&#8217;ve been inspired a lot lately by flat design and how it looks. A lto of my inspiration came from Windows 8 and Windows Phone 8 because I feel that the look is so elegant in design and I wanted to have a stab at it.</p>
+<p>Over the past two days, I've been reworking my website along with the design. I've been inspired a lot lately by flat design and how it looks. A lto of my inspiration came from Windows 8 and Windows Phone 8 because I feel that the look is so elegant in design and I wanted to have a stab at it.</p>
 
-<p>Since there aren&#8217;t many flat Octopress themes I decided to make my own after all of this work.</p>
+<p>Since there aren't many flat Octopress themes I decided to make my own after all of this work.</p>
 ]]></content>
   </entry>
   

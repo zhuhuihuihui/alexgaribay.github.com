@@ -1,36 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://alexgaribay.github.io/blog/2011/01/23/another-test-post-3/</loc>
-        <lastmod>2013-04-28T10:49:53-05:00</lastmod>
+        <loc>http://alexgaribay.github.io/blog/2013/04/27/fresh-new-looks/</loc>
+        <lastmod>2013-04-28T12:27:08-05:00</lastmod>
     </url>
     <url>
-        <loc>http://alexgaribay.github.io/blog/2012/01/23/another-test-post-2/</loc>
-        <lastmod>2013-04-28T10:49:53-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://alexgaribay.github.io/blog/2013/01/16/test-post-with-octopress/</loc>
-        <lastmod>2013-04-28T10:49:53-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://alexgaribay.github.io/blog/2013/01/23/another-test-post/</loc>
-        <lastmod>2013-04-28T10:49:53-05:00</lastmod>
+        <loc>http://alexgaribay.github.io/blog/2013/04/28/octoflat-theme/</loc>
+        <lastmod>2013-04-28T12:21:13-05:00</lastmod>
     </url>
     <url>
         <loc>http://alexgaribay.github.io/about-me.html</loc>
-        <lastmod>2013-04-28T10:54:45-05:00</lastmod>
+        <lastmod>2013-04-28T12:29:31-05:00</lastmod>
     </url>
     <url>
         <loc>http://alexgaribay.github.io/blog/archives/</loc>
-        <lastmod>2013-04-28T10:54:45-05:00</lastmod>
+        <lastmod>2013-04-28T12:29:31-05:00</lastmod>
     </url>
     <url>
         <loc>http://alexgaribay.github.io/</loc>
-        <lastmod>2013-04-28T10:49:53-05:00</lastmod>
+        <lastmod>2013-04-28T12:27:08-05:00</lastmod>
     </url>
     <url>
         <loc>http://alexgaribay.github.io/music.html</loc>
-        <lastmod>2013-04-28T10:54:45-05:00</lastmod>
+        <lastmod>2013-04-28T12:29:31-05:00</lastmod>
     </url>
     <url>
         <loc>http://alexgaribay.github.io/robots.txt</loc>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octoflat | Alex Garibay]]></title>
+  <link href="http://alexgaribay.github.io/blog/categories/octoflat/atom.xml" rel="self"/>
+  <link href="http://alexgaribay.github.io/"/>
+  <updated>2013-04-28T12:29:32-05:00</updated>
+  <id>http://alexgaribay.github.io/</id>
+  <author>
+    <name><![CDATA[Alex Garibay]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octoflat Theme]]></title>
+    <link href="http://alexgaribay.github.io/blog/2013/04/28/octoflat-theme/"/>
+    <updated>2013-04-28T12:11:00-05:00</updated>
+    <id>http://alexgaribay.github.io/blog/2013/04/28/octoflat-theme</id>
+    <content type="html"><![CDATA[<h2>Beginnings</h2>
+
+<p>I have created my first Octopress theme today called Octoflat. The theme is inspired by flat design. It uses <a href="" title="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a> and Designmodo's <a href="" title="https://github.com/designmodo/Flat-UI">Flat UI</a>. All the colors chosen are the colors listed on Flat-UI's demo page.</p>
+
+<p></br></p>
+
+<h4>Calling for Help</h4>
+
+<p>I need help making the theme more customizable to the end user. So any help in doing so would be greatly appreciated.</p>
+]]></content>
+  </entry>
+  
+</feed>
