@@ -197,9 +197,13 @@ h1 {
   font-size: 32px;
   font-weight: 900; }
   .date-time{
-    font-size: 18px;
+    font-size: 16px;
     color: #ECF0F1;
     font-weight: 500;
+  }
+  .link {
+    font-weight: 500;
+    font-size: 40px;
   }
 
 h2 {
@@ -2579,4 +2583,12 @@ body.vjs-full-window {
   vertical-align: center;
   background-color: #3498DB;
 }
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid rgb(255, 85, 68);
+    margin: 1em 0; padding: 0; }
+
+.border-top {
+  border-top: 1px solid rgb(255, 85, 68)
+}
+
 
