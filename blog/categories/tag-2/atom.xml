@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Alex Garibay]]></title>
-  <link href="http://alexgaribay.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: tag 2 | Alex Garibay]]></title>
+  <link href="http://alexgaribay.github.io/blog/categories/tag-2/atom.xml" rel="self"/>
   <link href="http://alexgaribay.github.io/"/>
   <updated>2013-04-27T21:08:53-05:00</updated>
   <id>http://alexgaribay.github.io/</id>
@@ -33,15 +33,6 @@
 <h4>H4</h4>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta hendrerit mattis. Mauris ullamcorper arcu id mi consectetur ornare. Fusce non justo tellus. Vivamus quis est quis est iaculis iaculis. Curabitur vitae lacus enim. Mauris sodales lectus eu odio condimentum porta. Donec dapibus lacus eget leo tincidunt sit amet ullamcorper odio aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent est nunc, porta in vestibulum et, porta sit amet dolor. Vivamus neque neque, elementum sit amet posuere eu, sagittis id metus.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Test post with Octopress]]></title>
-    <link href="http://alexgaribay.github.io/blog/2013/01/16/test-post-with-octopress/"/>
-    <updated>2013-01-16T22:25:00-06:00</updated>
-    <id>http://alexgaribay.github.io/blog/2013/01/16/test-post-with-octopress</id>
-    <content type="html"><![CDATA[<p>Testing out my new blog/website</p>
 ]]></content>
   </entry>
   
