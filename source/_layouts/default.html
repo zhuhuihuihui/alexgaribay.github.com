@@ -16,15 +16,19 @@
   	</div>
   </div>
   <div class="container" id="main">
-    <div id="content">
-      {{ content | expand_urls: root_url }}
+    <div class="span12">
+      <div class="row-fluid">
+        <div id="content">
+          {{ content | expand_urls: root_url }}
+        </div>
+      </div>
+      <div class="row-fluid">
+        <footer role="contentinfo">
+          {% include footer.html %}
+        </footer>
+      </div>
     </div>
   </div>
-  <footer role="contentinfo">
-  	<div class="container">
-  	  {% include footer.html %}
-  	</div>
-  </footer>
   {% include after_footer.html %}
 </body>
 </html>
