@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+<div class="jumbotron">
+  <div class="container">
+    Hi. I'm Alex.
+    <h3 class="tagline">Here are some thoughts of mine.</h3>
+  </div>
+</div>
 
 <div class="blog-index">
   {% assign index = true %}
@@ -14,7 +20,6 @@ layout: default
     {% if paginator.next_page %}
       <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
     {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
     {% if paginator.previous_page %}
     <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
     {% endif %}

@@ -5,7 +5,7 @@
 url: http://alexgaribay.github.io
 title: My Octopress Blog
 subtitle: A blogging framework for hackers.
-author: Your Name
+author: Alex Garibay
 simple_search: http://google.com/search
 description:
 
@@ -85,11 +85,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: alexgaribay
+disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-37698744-1
 
 # Facebook Like
 facebook_like: false
