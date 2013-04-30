@@ -4,7 +4,7 @@
   <title><![CDATA[Category: flat-design | Alex Garibay]]></title>
   <link href="http://alexgaribay.github.io/blog/categories/flat-design/atom.xml" rel="self"/>
   <link href="http://alexgaribay.github.io/"/>
-  <updated>2013-04-28T13:06:39-05:00</updated>
+  <updated>2013-04-29T22:48:50-05:00</updated>
   <id>http://alexgaribay.github.io/</id>
   <author>
     <name><![CDATA[Alex Garibay]]></name>
@@ -21,6 +21,47 @@
     <content type="html"><![CDATA[<h2>Beginnings</h2>
 
 <p>I have created my first Octopress theme today called Octoflat. The theme is inspired by flat design. It uses <a href="" title="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a> and Designmodo's <a href="" title="https://github.com/designmodo/Flat-UI">Flat UI</a>. All the colors chosen are the colors listed on Flat-UI's demo page.</p>
+
+<h2>Installing the theme</h2>
+
+<h4>As a submodule</h4>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd your_octopress_dir
+</span><span class='line'>git submodule add https://github.com/alexgaribay/octoflat .themes/octoflat
+</span><span class='line'>git submodule update --init
+</span><span class='line'>rake install['octoflat']
+</span><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h4>Grabbing the latest updates as a module</h4>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd your_octopress_dir
+</span><span class='line'>$ git submodule update&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;h1>regenerate, make changes, etc...&lt;/h1>
+</span><span class='line'>
+</span><span class='line'>&lt;p></span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h4>As a clone</h4>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd your_octopress_dir
+</span><span class='line'>$ git clone https://github.com/alexgaribay/octoflat .themes/octoflat
+</span><span class='line'>$ rake install['octoflat']
+</span><span class='line'>$ rake generate</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p></br></p>
 
