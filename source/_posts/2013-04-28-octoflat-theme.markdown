@@ -16,7 +16,6 @@ I have created my first Octopress theme today called Octoflat. The theme is insp
 {% codeblock %}
 cd your_octopress_dir
 git submodule add https://github.com/alexgaribay/octoflat .themes/octoflat
-git submodule update --init
 rake install['octoflat']
 rake generate
 {% endcodeblock %}
@@ -24,18 +23,17 @@ rake generate
 #### Grabbing the latest updates as a module #####
 
 {% codeblock %}
-$ cd your_octopress_dir
-$ git submodule update
-# regenerate, make changes, etc...
+cd your_octopress_dir
+git submodule update
 {% endcodeblock %}
 
 #### As a clone ####
 
 {% codeblock %}
-$ cd your_octopress_dir
-$ git clone https://github.com/alexgaribay/octoflat .themes/octoflat
-$ rake install['octoflat']
-$ rake generate
+cd your_octopress_dir
+git clone https://github.com/alexgaribay/octoflat .themes/octoflat
+rake install['octoflat']
+rake generate
 {% endcodeblock %}
 
 </br>
