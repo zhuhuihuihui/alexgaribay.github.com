@@ -36,6 +36,5 @@ rake install['octoflat']
 rake generate
 {% endcodeblock %}
 
-</br>
 #### Calling for Help #####
 I need help making the theme more customizable to the end user. So any help in doing so would be greatly appreciated.
