@@ -2628,12 +2628,8 @@ hr { display: block; height: 1px;
   background-color: #ECF0F1;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-
-  /* Safari and Chrome CSS here */
+@media all and (min-width: 0px) {
   .navbar-inverse .nav > li > a {
   color: #ECF0F1;
   font-weight: 400;
-}
-
 }
