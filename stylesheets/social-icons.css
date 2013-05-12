@@ -11,6 +11,5 @@
 }
 
 .social {
-  font-family: 'entypo-social';}
-  .github {
-      content: '\f300' ; } 
+  font-family: 'entypo-social'; 
+  font-size: 46px; }
