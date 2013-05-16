@@ -10,13 +10,14 @@ footer: false
 I am Alex Garibay. I’m a simple guy with a passion for learning about new technologies and electronics. I was born and raised in Kansas and haven’t lived anywhere else. I went to Kansas State University in Manhattan, Kansas to get my B.S. in Computer Engineering with a minor in Computer Science.
 
 ###My Occupation
-I currently work at Perceptive Software in Shawnee, KS as a Software Engineering in Test. It’s a pretty awesome gig… I’m presented with problems that I need to solve using automated tests. Each solution I create is something new and unique, a manifestation of my thoughts presented in code. It makes me feel like an artist each time since no two tests are the same; a text editor is my canvas and my keyboard is my brush.
+I currently work at Perceptive Software in Shawnee, KS as a Software Developer. It’s a pretty awesome gig. I get to work on our Integration Server product creating RESTful API using Java.
 
 ###My Hobbies
 Aside from learning about technology, I have a few hobbies:
 
 * Listening to electronic music
 * Creating electronic music
+* Learning Ruby
 * Running (using barefoot shoes)
 * Having fun with friends
 * Karate (green belt)
