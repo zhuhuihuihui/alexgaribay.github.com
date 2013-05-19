@@ -2641,7 +2641,7 @@ a:hover > .badge {
 }
 
 .social-sharing {
-  text-align: right; }
+  float: right; }
 
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -2654,10 +2654,16 @@ a:hover > .badge {
 
 
 /* Here is where any customizations for mobile devices should go */
-@media screen and (max-width: 767px)
-{
+@media screen and (max-width: 767px) {
   .social-sharing {
-	text-align: left; }
+	float: left; }
 }
 
+/* Retoma display specific customizations */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+  .social-sharing {
+    float: left; }
 }
