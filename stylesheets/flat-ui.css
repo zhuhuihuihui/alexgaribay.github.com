@@ -2641,7 +2641,7 @@ a:hover > .badge {
 }
 
 .social-sharing {
-  float: right; }
+  text-align: right; }
 
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -2654,11 +2654,10 @@ a:hover > .badge {
 
 
 /* Here is where any customizations for mobile devices should go */
-@media only screen and (max-width: 767px),
-  only screen and(min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 767px)
+{
   .social-sharing {
-    float: left; }
+	text-align: left; }
 }
 
+}
