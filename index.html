@@ -183,9 +183,47 @@
 </span><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure>
 
 
-<h4>Calling for Help</h4>
+<hr />
 
-<p>I need help making the theme more customizable to the end user. So any help in doing so would be greatly appreciated.</p>
+<h2>Configuring Navigation</h2>
+
+<p>Add a navigation section to your _config.yml. Doing this allows the navbar to highlight the active page. Use the following format:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>navigation:
+</span><span class='line'>- text: Home
+</span><span class='line'>  url: /index.html</span></code></pre></td></tr></table></div></figure>
+
+
+<h4>Adding New Pages</h4>
+
+<p>Create new pages by using the following command:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_page['new_page_name.md']</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Go back to update your _config.yml file:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>navigation:
+</span><span class='line'>- text: Home
+</span><span class='line'>  url: /index.html
+</span><span class='line'>- text: New Page Title
+</span><span class='line'>  url: /new_page_name.html</span></code></pre></td></tr></table></div></figure>
+
+
+<hr />
+
+<h4>Pull Requests Welcome</h4>
+
+<p>I need help making the theme more customizable to the end user. So any help in doing so would be greatly appreciated. Any suggestions are welcome as well!</p>
 
       
       
