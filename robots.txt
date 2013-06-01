@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: alexgaribay.com/sitemap.xml 
+Sitemap: http://alexgaribay.com/sitemap.xml 
