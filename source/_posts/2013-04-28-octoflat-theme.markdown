@@ -36,5 +36,36 @@ rake install['octoflat']
 rake generate
 {% endcodeblock %}
 
-#### Calling for Help #####
-I need help making the theme more customizable to the end user. So any help in doing so would be greatly appreciated.
+---------
+
+## Configuring Navigation ##
+Add a navigation section to your _config.yml. Doing this allows the navbar to highlight the active page. Use the following format:
+
+{% codeblock %}
+navigation:
+- text: Home
+  url: /index.html
+{% endcodeblock %}
+
+#### Adding New Pages ####
+
+Create new pages by using the following command:
+
+{% codeblock %}
+rake new_page['new_page_name.md']
+{% endcodeblock %}
+
+Go back to update your _config.yml file:
+
+{% codeblock %}
+navigation:
+- text: Home
+  url: /index.html
+- text: New Page Title
+  url: /new_page_name.html
+{% endcodeblock %}
+
+---------
+
+#### Pull Requests Welcome ####
+I need help making the theme more customizable to the end user. So any help in doing so would be greatly appreciated. Any suggestions are welcome as well!

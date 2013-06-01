@@ -12,13 +12,13 @@ description:
 
 navigation:
 - text: Blog
-  url: /
+  url: /index.html
 - text: Archives
   url: /blog/archives/index.html
 - text: My Music
-  url: /music
+  url: /music.html
 - text: About Me
-  url: /about-me
+  url: /about-me.html
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
