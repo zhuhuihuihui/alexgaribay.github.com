@@ -4,7 +4,7 @@
   <title><![CDATA[Alex Garibay]]></title>
   <link href="http://alexgaribay.com/atom.xml" rel="self"/>
   <link href="http://alexgaribay.com/"/>
-  <updated>2013-06-15T01:21:34-05:00</updated>
+  <updated>2013-06-15T14:08:20-05:00</updated>
   <id>http://alexgaribay.com/</id>
   <author>
     <name><![CDATA[Alex Garibay]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octoflat Light]]></title>
+    <link href="http://alexgaribay.com/blog/2013/06/15/octoflat-light/"/>
+    <updated>2013-06-15T13:39:00-05:00</updated>
+    <id>http://alexgaribay.com/blog/2013/06/15/octoflat-light</id>
+    <content type="html"><![CDATA[<p>Since I&#8217;ve been asked by multiple people and since I wanted to make the theme more customizable for everyone, I&#8217;ve updated the theme to have a new color scheme. In doing so, I&#8217;ve made the theme easier for anyone to customize. If you don&#8217;t like
+any of the colors that come out of the box, edit the <strong>octoflat/sass/_colors.scss</strong> file and customize your colors.</p>
+
+<h2>Changing the Color Scheme</h2>
+
+<p>The theme has two color scheme options: light and dark. The dark color scheme is the one enabled by default.</p>
+
+<p>To change the color scheme after you&#8217;ve installed the theme, do the following:</p>
+
+<ul>
+<li>Go to the sass directory</li>
+<li>Edit the <strong>_colors.scss</strong> file.</li>
+<li>Modify the &#8216;$theme-color&#8217; variable to be set to either &#8216;light&#8217; or &#8216;dark&#8217;</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd your_octopress_dir/.themes/octoflat/sass
+</span><span class='line'>$ vim _colors.scss
+</span><span class='line'>// edit the $theme-color variable
+</span><span class='line'>// (ex. $theme-color: light;)</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Disable iOS 7 Parallax]]></title>
