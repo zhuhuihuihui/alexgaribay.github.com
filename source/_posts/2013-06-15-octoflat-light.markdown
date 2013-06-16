@@ -7,7 +7,7 @@ categories: octoflat
 ---
 
 Since I've been asked by multiple people and since I wanted to make the theme more customizable for everyone, I've updated the theme to have a new color scheme. In doing so, I've made the theme easier for anyone to customize. If you don't like
-any of the colors that come out of the box, edit the **octoflat/sass/_colors.scss** file and customize your colors.
+any of the colors that come out of the box, edit the **octoflat/sass/custom/_colors.scss** file and customize your colors.
 
 ## Changing the Color Scheme
 
@@ -15,13 +15,12 @@ The theme has two color scheme options: light and dark. The dark color scheme is
 
 To change the color scheme after you've installed the theme, do the following:
 
-- Go to the sass directory 
+- Go to the sass/custom directory 
 - Edit the **_colors.scss** file.
-- Modify the '$theme-color' variable to be set to either 'light' or 'dark'
+- Remove the commented lines out that are specified
 
 {% codeblock %}
-$ cd your_octopress_dir/.themes/octoflat/sass
+$ cd your_octopress_dir/.themes/octoflat/sass/custom
 $ vim _colors.scss
-// edit the $theme-color variable
-// (ex. $theme-color: light;)
+// Delete the commented lines (3 and 18)
 {% endcodeblock %}
