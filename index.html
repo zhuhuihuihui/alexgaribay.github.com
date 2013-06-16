@@ -140,7 +140,7 @@
     <div class="span10">
       <h1 class="link"><a href="/blog/2013/06/15/octoflat-light/">Octoflat Light</a></h1>
       <p>Since I&#8217;ve been asked by multiple people and since I wanted to make the theme more customizable for everyone, I&#8217;ve updated the theme to have a new color scheme. In doing so, I&#8217;ve made the theme easier for anyone to customize. If you don&#8217;t like
-any of the colors that come out of the box, edit the <strong>octoflat/sass/_colors.scss</strong> file and customize your colors.</p>
+any of the colors that come out of the box, edit the <strong>octoflat/sass/custom/_colors.scss</strong> file and customize your colors.</p>
 
 <h2>Changing the Color Scheme</h2>
 
@@ -149,20 +149,18 @@ any of the colors that come out of the box, edit the <strong>octoflat/sass/_colo
 <p>To change the color scheme after you&#8217;ve installed the theme, do the following:</p>
 
 <ul>
-<li>Go to the sass directory</li>
+<li>Go to the sass/custom directory</li>
 <li>Edit the <strong>_colors.scss</strong> file.</li>
-<li>Modify the &#8216;$theme-color&#8217; variable to be set to either &#8216;light&#8217; or &#8216;dark&#8217;</li>
+<li>Remove the commented lines out that are specified</li>
 </ul>
 
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd your_octopress_dir/.themes/octoflat/sass
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd your_octopress_dir/.themes/octoflat/sass/custom
 </span><span class='line'>$ vim _colors.scss
-</span><span class='line'>// edit the $theme-color variable
-</span><span class='line'>// (ex. $theme-color: light;)</span></code></pre></td></tr></table></div></figure>
+</span><span class='line'>// Delete the commented lines (3 and 18)</span></code></pre></td></tr></table></div></figure>
 
 
       
