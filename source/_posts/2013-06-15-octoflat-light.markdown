@@ -17,7 +17,7 @@ To change the color scheme after you've installed the theme, do the following:
 
 - Go to the sass/custom directory 
 - Edit the **_colors.scss** file.
-- Remove the commented lines out that are specified
+- Remove the commented out lines that are specified
 
 {% codeblock %}
 $ cd your_octopress_dir/.themes/octoflat/sass/custom
