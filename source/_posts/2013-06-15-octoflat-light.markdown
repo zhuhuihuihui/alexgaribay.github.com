@@ -24,3 +24,9 @@ $ cd your_octopress_dir/.themes/octoflat/sass/custom
 $ vim _colors.scss
 // Delete the commented lines (3 and 18)
 {% endcodeblock %}
+
+After chaning the colors, make sure to recompile the sass directory.
+
+{% codeblock %}
+$ rake generate
+{% endcodeblock %}
