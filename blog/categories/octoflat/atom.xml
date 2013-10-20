@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octoflat | Alex Garibay]]></title>
   <link href="http://alexgaribay.com/blog/categories/octoflat/atom.xml" rel="self"/>
   <link href="http://alexgaribay.com/"/>
-  <updated>2013-10-19T20:04:45-05:00</updated>
+  <updated>2013-10-20T08:23:05-05:00</updated>
   <id>http://alexgaribay.com/</id>
   <author>
     <name><![CDATA[Alex Garibay]]></name>
@@ -40,6 +40,11 @@ any of the colors that come out of the box, edit the <strong>octoflat/sass/custo
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ cd your_octopress_dir/.themes/octoflat/sass/custom
 </span><span class='line'>$ vim _colors.scss
 </span><span class='line'>// Delete the commented lines (3 and 18)</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>After chaning the colors, make sure to recompile the sass directory.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake generate</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 ]]></content>
   </entry>
   
