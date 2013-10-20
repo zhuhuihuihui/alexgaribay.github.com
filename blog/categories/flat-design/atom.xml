@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: flat-design | Alex Garibay]]></title>
+  <link href="http://alexgaribay.com/blog/categories/flat-design/atom.xml" rel="self"/>
+  <link href="http://alexgaribay.com/"/>
+  <updated>2013-10-19T19:33:21-05:00</updated>
+  <id>http://alexgaribay.com/</id>
+  <author>
+    <name><![CDATA[Alex Garibay]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Disable iOS 7 Parallax]]></title>
+    <link href="http://alexgaribay.com/blog/2013/06/14/disable-ios-7-parallax/"/>
+    <updated>2013-06-14T19:31:00-05:00</updated>
+    <id>http://alexgaribay.com/blog/2013/06/14/disable-ios-7-parallax</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been using iOS 7 since the day it was announced. And I&rsquo;m loving the design changes so far. It uses flatter design but not completely flat, which I am okay with. One aspect that I do not like is the parallax feature, which makes the icons and background change orientation to give a psuedo 3D effect.</p>
+
+<h3>Disabling the Effect</h3>
+
+<ol>
+<li>Open the &lsquo;Settings&rsquo; app</li>
+<li>Tap &lsquo;General&rsquo;</li>
+<li>Tap &lsquo;Accessibility&rsquo;</li>
+<li>Tap the switch for &lsquo;Reduce Motion&rsquo; to be in the on state</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octoflat Theme]]></title>
+    <link href="http://alexgaribay.com/blog/2013/04/28/octoflat-theme/"/>
+    <updated>2013-04-28T12:11:00-05:00</updated>
+    <id>http://alexgaribay.com/blog/2013/04/28/octoflat-theme</id>
+    <content type="html"><![CDATA[<h2>Beginnings</h2>
+
+<p>I have created my first Octopress theme today called Octoflat. The theme is inspired by flat design. It uses <a href="" title="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a> and Designmodo&rsquo;s <a href="" title="https://github.com/designmodo/Flat-UI">Flat UI</a>. All the colors chosen are the colors listed on Flat-UI&rsquo;s demo page.</p>
+
+<h2>Installing the theme</h2>
+
+<h4>As a submodule</h4>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd your_octopress_dir
+</span><span class='line'>git submodule add &lt;a href="https://github.com/alexgaribay/octoflat">https://github.com/alexgaribay/octoflat&lt;/a> .themes/octoflat
+</span><span class='line'>rake install[&lsquo;octoflat&rsquo;]
+</span><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h4>Grabbing the latest updates as a module</h4>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd your_octopress_dir
+</span><span class='line'>git submodule update</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h4>As a clone</h4>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd your_octopress_dir
+</span><span class='line'>git clone &lt;a href="https://github.com/alexgaribay/octoflat">https://github.com/alexgaribay/octoflat&lt;/a> .themes/octoflat
+</span><span class='line'>rake install[&lsquo;octoflat&rsquo;]
+</span><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<hr />
+
+<h2>Configuring Navigation</h2>
+
+<p>Add a navigation section to your _config.yml. Doing this allows the navbar to highlight the active page. Use the following format:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>navigation:
+</span><span class='line'>&ndash; text: Home
+</span><span class='line'>  url: /index.html</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h4>Adding New Pages</h4>
+
+<p>Create new pages by using the following command:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_page[&lsquo;new_page_name.md&rsquo;]</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Go back to update your _config.yml file:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>navigation:
+</span><span class='line'>&ndash; text: Home
+</span><span class='line'>  url: /index.html
+</span><span class='line'>&ndash; text: New Page Title
+</span><span class='line'>  url: /new_page_name.html</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<hr />
+
+<h4>Pull Requests Welcome</h4>
+
+<p>I need help making the theme more customizable to the end user. So any help in doing so would be greatly appreciated. Any suggestions are welcome as well!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fresh New Looks]]></title>
+    <link href="http://alexgaribay.com/blog/2013/04/27/fresh-new-looks/"/>
+    <updated>2013-04-27T16:00:00-05:00</updated>
+    <id>http://alexgaribay.com/blog/2013/04/27/fresh-new-looks</id>
+    <content type="html"><![CDATA[<h2>A New Coat of Paint</h2>
+
+<p>Over the past two days, I&rsquo;ve been reworking my website along with the design. I&rsquo;ve been inspired a lot lately by flat design and how it looks. A lot of my inspiration came from Windows 8 and Windows Phone 8 because I feel that the look is so elegant in design and I wanted to have a stab at it.</p>
+
+<p>Since there aren&rsquo;t many flat Octopress themes I decided to make my own after all of this work.</p>
+]]></content>
+  </entry>
+  
+</feed>
