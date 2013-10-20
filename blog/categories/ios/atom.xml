@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: iOS | Alex Garibay]]></title>
+  <link href="http://alexgaribay.com/blog/categories/ios/atom.xml" rel="self"/>
+  <link href="http://alexgaribay.com/"/>
+  <updated>2013-10-19T18:32:46-05:00</updated>
+  <id>http://alexgaribay.com/</id>
+  <author>
+    <name><![CDATA[Alex Garibay]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Disable iOS 7 Parallax]]></title>
+    <link href="http://alexgaribay.com/blog/2013/06/14/disable-ios-7-parallax/"/>
+    <updated>2013-06-14T19:31:00-05:00</updated>
+    <id>http://alexgaribay.com/blog/2013/06/14/disable-ios-7-parallax</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been using iOS 7 since the day it was announced. And I&rsquo;m loving the design changes so far. It uses flatter design but not completely flat, which I am okay with. One aspect that I do not like is the parallax feature, which makes the icons and background change orientation to give a psuedo 3D effect.</p>
+
+<h3>Disabling the Effect</h3>
+
+<ol>
+<li>Open the &lsquo;Settings&rsquo; app</li>
+<li>Tap &lsquo;General&rsquo;</li>
+<li>Tap &lsquo;Accessibility&rsquo;</li>
+<li>Tap the switch for &lsquo;Reduce Motion&rsquo; to be in the on state</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

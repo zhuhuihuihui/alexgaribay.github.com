@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octoflat | Alex Garibay]]></title>
+  <link href="http://alexgaribay.com/blog/categories/octoflat/atom.xml" rel="self"/>
+  <link href="http://alexgaribay.com/"/>
+  <updated>2013-10-19T18:32:46-05:00</updated>
+  <id>http://alexgaribay.com/</id>
+  <author>
+    <name><![CDATA[Alex Garibay]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octoflat Light]]></title>
+    <link href="http://alexgaribay.com/blog/2013/06/15/octoflat-light/"/>
+    <updated>2013-06-15T13:39:00-05:00</updated>
+    <id>http://alexgaribay.com/blog/2013/06/15/octoflat-light</id>
+    <content type="html"><![CDATA[<p>Since I&rsquo;ve been asked by multiple people and since I wanted to make the theme more customizable for everyone, I&rsquo;ve updated the theme to have a new color scheme. In doing so, I&rsquo;ve made the theme easier for anyone to customize. If you don&rsquo;t like
+any of the colors that come out of the box, edit the <strong>octoflat/sass/custom/_colors.scss</strong> file and customize your colors.</p>
+
+<h2>Changing the Color Scheme</h2>
+
+<p>The theme has two color scheme options: light and dark. The dark color scheme is the one enabled by default.</p>
+
+<p>To change the color scheme after you&rsquo;ve installed the theme, do the following:</p>
+
+<ul>
+<li>Go to the sass/custom directory</li>
+<li>Edit the <strong>_colors.scss</strong> file.</li>
+<li>Remove the commented out lines that are specified</li>
+</ul>
+
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd your_octopress_dir/.themes/octoflat/sass/custom
+</span><span class='line'>$ vim _colors.scss
+</span><span class='line'>// Delete the commented lines (3 and 18)</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octoflat Theme]]></title>
+    <link href="http://alexgaribay.com/blog/2013/04/28/octoflat-theme/"/>
+    <updated>2013-04-28T12:11:00-05:00</updated>
+    <id>http://alexgaribay.com/blog/2013/04/28/octoflat-theme</id>
+    <content type="html"><![CDATA[<h2>Beginnings</h2>
+
+<p>I have created my first Octopress theme today called Octoflat. The theme is inspired by flat design. It uses <a href="" title="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a> and Designmodo&rsquo;s <a href="" title="https://github.com/designmodo/Flat-UI">Flat UI</a>. All the colors chosen are the colors listed on Flat-UI&rsquo;s demo page.</p>
+
+<h2>Installing the theme</h2>
+
+<h4>As a submodule</h4>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd your_octopress_dir
+</span><span class='line'>git submodule add &lt;a href="https://github.com/alexgaribay/octoflat">https://github.com/alexgaribay/octoflat&lt;/a> .themes/octoflat
+</span><span class='line'>rake install[&lsquo;octoflat&rsquo;]
+</span><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h4>Grabbing the latest updates as a module</h4>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd your_octopress_dir
+</span><span class='line'>git submodule update</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h4>As a clone</h4>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd your_octopress_dir
+</span><span class='line'>git clone &lt;a href="https://github.com/alexgaribay/octoflat">https://github.com/alexgaribay/octoflat&lt;/a> .themes/octoflat
+</span><span class='line'>rake install[&lsquo;octoflat&rsquo;]
+</span><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<hr />
+
+<h2>Configuring Navigation</h2>
+
+<p>Add a navigation section to your _config.yml. Doing this allows the navbar to highlight the active page. Use the following format:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>navigation:
+</span><span class='line'>&ndash; text: Home
+</span><span class='line'>  url: /index.html</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<h4>Adding New Pages</h4>
+
+<p>Create new pages by using the following command:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_page[&lsquo;new_page_name.md&rsquo;]</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Go back to update your _config.yml file:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>navigation:
+</span><span class='line'>&ndash; text: Home
+</span><span class='line'>  url: /index.html
+</span><span class='line'>&ndash; text: New Page Title
+</span><span class='line'>  url: /new_page_name.html</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<hr />
+
+<h4>Pull Requests Welcome</h4>
+
+<p>I need help making the theme more customizable to the end user. So any help in doing so would be greatly appreciated. Any suggestions are welcome as well!</p>
+]]></content>
+  </entry>
+  
+</feed>

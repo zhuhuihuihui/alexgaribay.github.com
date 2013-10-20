@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: real-time | Alex Garibay]]></title>
+  <link href="http://alexgaribay.com/blog/categories/real-time/atom.xml" rel="self"/>
+  <link href="http://alexgaribay.com/"/>
+  <updated>2013-10-19T18:32:46-05:00</updated>
+  <id>http://alexgaribay.com/</id>
+  <author>
+    <name><![CDATA[Alex Garibay]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Meteor.js]]></title>
+    <link href="http://alexgaribay.com/blog/2013/10/18/meteor-dot-js/"/>
+    <updated>2013-10-18T21:33:00-05:00</updated>
+    <id>http://alexgaribay.com/blog/2013/10/18/meteor-dot-js</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been spending some time learning about Meteor.js. It is a really neat web framework built on top of Node.js. It allows for easily creating real-time web apps build utilizing MongoDB as the data store. I suggest taking at look at the project at <a href="" title="http://meteor.com">http://meteor.com</a>.</p>
+
+<p>If you you do become interested and want to learn the framework quickly, I recommend the book <a href="" title="https://www.discovermeteor.com">Discover Meteor</a>. The book goes into great detail on how Meteor works and how to get an app running quickly. It&rsquo;s a great resource to learn Meteor in general.</p>
+]]></content>
+  </entry>
+  
+</feed>
