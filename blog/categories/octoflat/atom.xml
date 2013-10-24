@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octoflat | Alex Garibay]]></title>
   <link href="http://alexgaribay.com/blog/categories/octoflat/atom.xml" rel="self"/>
   <link href="http://alexgaribay.com/"/>
-  <updated>2013-10-20T08:23:05-05:00</updated>
+  <updated>2013-10-24T10:19:10-05:00</updated>
   <id>http://alexgaribay.com/</id>
   <author>
     <name><![CDATA[Alex Garibay]]></name>
@@ -19,7 +19,7 @@
     <updated>2013-06-15T13:39:00-05:00</updated>
     <id>http://alexgaribay.com/blog/2013/06/15/octoflat-light</id>
     <content type="html"><![CDATA[<p>Since I&rsquo;ve been asked by multiple people and since I wanted to make the theme more customizable for everyone, I&rsquo;ve updated the theme to have a new color scheme. In doing so, I&rsquo;ve made the theme easier for anyone to customize. If you don&rsquo;t like
-any of the colors that come out of the box, edit the <strong>octoflat/sass/custom/_colors.scss</strong> file and customize your colors.</p>
+any of the colors that come out of the box, just edit the <strong>sass/custom/_colors.scss</strong> file and customize your colors after the theme is installed.</p>
 
 <h2>Changing the Color Scheme</h2>
 
@@ -37,11 +37,11 @@ any of the colors that come out of the box, edit the <strong>octoflat/sass/custo
 <p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd your_octopress_dir/.themes/octoflat/sass/custom
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd your_octopress_dir/sass/custom
 </span><span class='line'>$ vim _colors.scss
 </span><span class='line'>// Delete the commented lines (3 and 18)</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-<p>After chaning the colors, make sure to recompile the sass directory.</p>
+<p>After changing the colors, make sure to recompile the sass directory.</p>
 
 <p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ rake generate</span></code></pre></td></tr></table></div></figure></notextile></div></p>
