@@ -10,7 +10,7 @@ footer: false
 I am Alex Garibay. I’m a simple guy with a passion for learning about new technologies and electronics. I was born and raised in Kansas and haven’t lived anywhere else. I went to Kansas State University in Manhattan, Kansas to get my B.S. in Computer Engineering with a minor in Computer Science.
 
 ###My Occupation
-I currently work at NetSmart Technologies working on creating benchmarking and analytics products for care providers and their electronics health records (EHRs).
+I currently work at NetSmart Technologies working on creating benchmarking and analytics products for care providers and their electronic health records (EHRs).
 
 ###My Hobbies
 Aside from learning about technology, I have a few hobbies:
