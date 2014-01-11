@@ -20,6 +20,6 @@ Aside from learning about technology, I have a few hobbies:
 * Learning all sorts of web technologies
 * Running (using barefoot shoes)
 * Having fun with friends
-* Karate and Kobujistu (purble belt in both systems)
+* Karate and Kobujistu (purple belt in both systems)
 
 I got into electronic music around middle school and immersed myself in it in college. I liked it so much that I learned how to create my own songs (I have a small musical background from playing percussion in band when I was younger). My songs can be found on my <a href="music.html">Music</a> page.
